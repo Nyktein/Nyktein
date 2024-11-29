@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ayuda basta porfavor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-container">
+    <h1>epiquísimo test para el visu de botánica</h1>
+    <p>tipo de quiz:</p>
+    <p>solo el mixto tiene 40, en los demás no funciona</p>
+    <div>
+      <label for="num-questions">nº de preguntas</label>
+      <select id="num-questions">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20" selected>20</option>
+        <option value="25">25</option>
+        <option value="40">40</option>
+      </select>
+    </div>
+    <div>
+      <button class="mode-btn" data-mode="images">identificación por foto</button>
+      <button class="mode-btn" data-mode="multiple-choice">test nombre correcto</button>
+      <button class="mode-btn" data-mode="mixed">mixto</button>
+    </div>
+  </div>
+
+  <div id="quiz-container" style="display: none;">
+    <h1>🌱🌱🌱quiz botanicooo🤑🤑🤑🤑</h1>
+    <div id="question-container"></div>
+    <button id="next-btn" disabled>Siguiente</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

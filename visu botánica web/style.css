@@ -1,0 +1,113 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f4e4; /* Verde claro de fondo */
+    color: #2d4f2d; /* Verde oscuro del texto */
+  }
+  
+  /* Contenedor inicial */
+  #start-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #d0ecd0; /* Fondo ligeramente más oscuro */
+    border-bottom: 5px solid #2d4f2d;
+  }
+  
+  h1 {
+    color: #2d4f2d; /* Verde oscuro */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #3a6f3a; /* Verde intermedio */
+  }
+  
+  /* Botones */
+  button {
+    background-color: #6da96d; /* Verde intermedio */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4d7f4d; /* Verde oscuro al pasar el ratón */
+  }
+  
+  button:disabled {
+    background-color: #b3d9b3; /* Verde pálido para botones desactivados */
+    cursor: not-allowed;
+  }
+  
+  /* Contenedor del quiz */
+  #quiz-container {
+    padding: 30px;
+    background-color: #eaf7e9; /* Fondo claro del quiz */
+    text-align: center;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Imágenes */
+  img {
+    max-width: 100%;
+    border: 3px solid #6da96d; /* Borde verde intermedio */
+    border-radius: 10px;
+  }
+  
+  /* Input de texto */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6da96d;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Selector */
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6da96d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f5fff5; /* Verde muy claro */
+    color: #2d4f2d;
+  }
+  
+  /* Opciones */
+  .option-btn {
+    background-color: #6da96d; /* Verde intermedio */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-btn:hover {
+    background-color: #4d7f4d; /* Verde más oscuro */
+  }
+  
+  /* Resultados */
+  #question-container h2 {
+    color: #2d4f2d;
+  }
+  
+  #question-container p {
+    color: #3a6f3a;
+  }
+  
+  
