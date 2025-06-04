@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Mis Videos{% endblock %}
+{% block content %}
+<h1>Bienvenido, {{ user }}</h1>
+<ul class="video-list">
+    {% for video in videos %}
+    <li>
+        <video controls width="320" height="240">
+            <source src="{{ url_for('videos', filename=video) }}" type="video/mp4">
+        </video>
+        <p>{{ video }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
